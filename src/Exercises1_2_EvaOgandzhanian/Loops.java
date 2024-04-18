@@ -28,7 +28,37 @@ public class Loops {
             System.out.println("");
         }
 
-        guessNumber();
+        christmasTree();
+    }
+
+    public static void christmasTree() {
+        Scanner triangles = new Scanner(System.in);
+
+        System.out.print("How large should the christmas tree be?");
+        int treeSize = triangles.nextInt();
+
+
+        for (int rowsInTree = 1; rowsInTree <= treeSize; rowsInTree++) {
+
+            for (int space = treeSize - 1; space >= rowsInTree; space--) {
+                System.out.print(" ");
+            }
+
+            for (int starsInLine = 1; starsInLine < 2; starsInLine++) {
+                System.out.print("*");
+            }
+
+            for (int starsInLine = 2; starsInLine <= rowsInTree; starsInLine++) {
+                System.out.print("**");
+            }
+
+            for (int starsInLine = treeSize + 1; starsInLine == treeSize + 2; starsInLine++) {
+                System.out.print("I");
+            }
+            System.out.println("");
+        }
+
+       guessNumber();
     }
 
     public static void guessNumber() {
