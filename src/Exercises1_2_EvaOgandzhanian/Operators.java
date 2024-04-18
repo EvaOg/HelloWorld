@@ -2,7 +2,7 @@ package Exercises1_2_EvaOgandzhanian;
 
 import java.util.Scanner;
 
-public class operators {
+public class Operators {
     public static void main(String[] args) {
         Scanner timeCalculator = new Scanner(System.in);
 

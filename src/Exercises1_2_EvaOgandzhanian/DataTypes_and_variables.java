@@ -1,9 +1,6 @@
 package Exercises1_2_EvaOgandzhanian;
 
-import java.util.Scanner;
-import java.util.concurrent.ThreadLocalRandom;
-
-public class dataTypes_and_variables {
+public class DataTypes_and_variables {
 
     public static void  main(String[] args) {
 

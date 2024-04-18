@@ -1,8 +1,6 @@
 package Exercises1_2_EvaOgandzhanian;
 
-import java.util.Arrays;
-
-public class arrays {
+public class Arrays {
     public static void main(String[] args) {
 
         int[] numbers = new int[] {12, -22, 300, 43, 0};
@@ -35,18 +33,6 @@ public class arrays {
 
 
     public static void usingMethods() {
-        /*int[] arr = {6, 15, 7, 76, 1, 9};
-        int[] newarr = new int[arr.length];
-        int multiplier = 5;
-
-        for (int i = 0; i < arr.length; i++) {
-            newarr[i] = arr[i] * multiplier;
-        }
-
-        System.out.println("Original array: " + Arrays.toString(arr));
-        System.out.println("New array: " + Arrays.toString(newarr));
-
-        */
         int[] arr = {6, 15, 7, 76, 1, 9};
         int multiplier = 5;
         printMultipliedArray(multiplier, arr);
@@ -61,11 +47,12 @@ public class arrays {
             for (int i = 0; i < arr.length; i++) {
                 arr[i] = arr[i] * multiplier;
             }
-        System.out.println(Arrays.toString(arr));
+
+        System.out.println(java.util.Arrays.toString(arr));
             /*The arr was changed because I haven't created a new arr to record changed numbers.
             These changes happened on the string 57.*/
-        }
 
+    }
 
 
 }

@@ -2,7 +2,7 @@ package Exercises1_2_EvaOgandzhanian;
 
 import java.util.Scanner;
 
-public class input_and_Output {
+public class Input_and_Output {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

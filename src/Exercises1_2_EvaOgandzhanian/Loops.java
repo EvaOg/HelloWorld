@@ -3,7 +3,7 @@ package Exercises1_2_EvaOgandzhanian;
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class loops {
+public class Loops {
 
     public static void main(String[] args) {
         Scanner triangles = new Scanner(System.in);
