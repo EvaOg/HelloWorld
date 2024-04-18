@@ -38,17 +38,17 @@ public class Arrays {
         printMultipliedArray(multiplier, arr);
         System.out.println(multiplier);
         /*Even though I have added 1 to multiplier ant arr is multiplied to 6, we still see 5.
-        It happens because Java reads strings one after another and at the point when we print the value of multiplier,
-        1 was not yet added */
+        It happens because multiplier was changed inside of method(function);*/
 
     }
     private static void printMultipliedArray(int multiplier, int[] arr){
-            multiplier = 5 + 1;
+            multiplier = multiplier + 1;
             for (int i = 0; i < arr.length; i++) {
                 arr[i] = arr[i] * multiplier;
             }
 
         System.out.println(java.util.Arrays.toString(arr));
+
             /*The arr was changed because I haven't created a new arr to record changed numbers.
             These changes happened on the string 57.*/
 
