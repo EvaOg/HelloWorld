@@ -52,11 +52,10 @@ public class Loops {
                 System.out.print("**");
             }
 
-            for (int starsInLine = treeSize + 1; starsInLine == treeSize + 2; starsInLine++) {
-                System.out.print("I");
-            }
             System.out.println("");
         }
+
+        System.out.println(" ".repeat( treeSize - 1) + "I" );
 
        guessNumber();
     }
