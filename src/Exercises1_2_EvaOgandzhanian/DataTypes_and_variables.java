@@ -12,7 +12,7 @@ public class DataTypes_and_variables {
         byte javaProgramLengthWeeks = 16;
         double piValue = 3.14159265359;
 
-        System.out.println("Initials: " + initial + ". Population in Germany: " + populationGermany + ". Population on Earth: " + populationEarth + ". Is currently daytime? " + isDaytime + ". Goal strike quote of Mario Gomez at Bayern München: " + marioGomezGoalStrike + ". Length of the Java program in weeks: " + javaProgramLengthWeeks + ". The mathematical number PI: " + piValue);
+        System.out.println("Initials: " + initial + ".\nPopulation in Germany: " + populationGermany + ".\nPopulation on Earth: " + populationEarth + ".\nIs currently daytime? " + isDaytime + ".\nGoal strike quote of Mario Gomez at Bayern München: " + marioGomezGoalStrike + ".\nLength of the Java program in weeks: " + javaProgramLengthWeeks + ".\nThe mathematical number PI: " + piValue);
 
         }
 
