@@ -1,4 +1,4 @@
-package TicTacToe;
+package tictactoe;
 
 import java.util.Scanner;
 
@@ -23,11 +23,11 @@ public class TicTacToe {
             pos[input - 1] = turn;
 
 
-            System.out.println(" " + pos[6] + " | " + pos[7] + " | " + pos[8] + " ");
+            System.out.println(" " + pos[0] + " | " + pos[1] + " | " + pos[2] + " ");
             System.out.println("---+---+---");
             System.out.println(" " + pos[3] + " | " + pos[4] + " | " + pos[5] + " ");
             System.out.println("---+---+---");
-            System.out.println(" " + pos[0] + " | " + pos[1] + " | " + pos[2] + " ");
+            System.out.println(" " + pos[6] + " | " + pos[7] + " | " + pos[8] + " ");
 
             if (pos[0] == turn && pos[1] == turn && pos[2] == turn
             || pos[3] == turn && pos[4] == turn && pos[5] == turn
