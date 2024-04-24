@@ -1,4 +1,4 @@
-package computer;
+package Computer2;
 
 public class Computer {
 
