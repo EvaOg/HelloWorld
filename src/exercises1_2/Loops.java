@@ -1,4 +1,4 @@
-package Exercises1_2_EvaOgandzhanian;
+package exercises1_2;
 
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
@@ -50,6 +50,7 @@ public class Loops {
 
             for (int starsInLine = 2; starsInLine <= rowsInTree; starsInLine++) {
                 System.out.print("**");
+                "*".hashCode();
             }
 
             System.out.println("");

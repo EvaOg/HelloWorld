@@ -1,6 +1,4 @@
-package Exercises1_2_EvaOgandzhanian;
-
-import java.util.Scanner;
+package exercises1_2;
 
 public class Oop {
 

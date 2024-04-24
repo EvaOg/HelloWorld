@@ -1,4 +1,4 @@
-package Exercises1_2_EvaOgandzhanian;
+package exercises1_2;
 
 import java.util.Scanner;
 
