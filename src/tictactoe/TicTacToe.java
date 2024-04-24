@@ -1,5 +1,6 @@
 package tictactoe;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class TicTacToe {
@@ -47,6 +48,7 @@ public class TicTacToe {
             else if (turn == 'O') {
                 turn = 'X';
             }
+            System.out.println(Arrays.toString(pos));
 
             turns++;
             if (turns > 9) {
