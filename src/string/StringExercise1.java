@@ -36,7 +36,7 @@ public class StringExercise1 {
 
         String str2 = "1, 2, 4, 9, 8, 7, 6, 4, 1";
 
-        String[] arr2 = str2.split(",");
+        String[] arr2 = str2.split(",\\s");
 
         System.out.println(Arrays.toString(arr2));
 
@@ -44,9 +44,11 @@ public class StringExercise1 {
 
         for(int i=0; i< arr2.length; i++) {
 
-            arr3[i] = Integer.parseInt(arr2[i].trim());
+            arr3[i] = Integer.parseInt(arr2[i]);
 
         }
+
+
 
         System.out.println(Arrays.toString(arr3));
 

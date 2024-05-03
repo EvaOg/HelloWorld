@@ -1,6 +1,8 @@
 package string;
 
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import static java.lang.Character.isUpperCase;
 
@@ -42,30 +44,12 @@ public class InputValidation {
 
      //The input string must contain the characters '(' and ')'. And the ')' must come after the '('.
 
-/*
-boolean containsParentheses = false;
-        int count = 0;
 
-        for (int i = 0; i < str.length(); i++) {
-            char c = str.charAt(i);
-            if (c == '(') {
-                count++;
-            } else if (c == ')') {
-                if (count > 0) {
-                    containsParentheses = true;
-                    break;
-                }
-            }
-        }
+        Pattern pattern = Pattern.compile(".*\\(.*\\).*");
+        Matcher m = pattern.matcher(word);
+        System.out.println(m.find()? "ok" : "Error");
 
-        if (containsParentheses) {
-            System.out.println("The string contains parentheses in the correct order.");
-        } else {
-            System.out.println("The string does not contain parentheses in the correct order.");
-        }
- */
+
     }
-
-
 }
 

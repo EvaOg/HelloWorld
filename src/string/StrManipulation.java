@@ -26,9 +26,16 @@ public class StrManipulation {
         String str2 = "123.45.678";
         String str3 = "123, 45, -34.231, 0, -1, -12312, 12312, 23423";
 
-        deleteFirstNumbers(str);
-        deleteDots(str2);
+        deleteFirstNumbers(str); //When the input starts with „+49“, remove that part. For example „+4989123456“ becomes „89123456“.
+        deleteDots(str2); //Remove all dots '.' from the input, e.g. "127.0.0.1" should become 127001
 
+
+
+        //deleteNegativeNumbers(str3); // String of numbers my contain negative numbers. E.g.
+        // "123, 45, -34.231, 0, -1, -12312, 12312, 23423".
+        // Replace all negative values with null (“0”).
+        // A new, comma separated string should be created, e.g.
+        // "123,45,0,231,0,0,0,12312,23423".  Also, all spaces should be removed, if any.
 
 
 
