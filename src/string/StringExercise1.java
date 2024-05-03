@@ -2,7 +2,7 @@ package string;
 
 import java.util.Arrays;
 
-public class StringEx {
+public class StringExercise1 {
     public static void main(String[] args) {
 
 
