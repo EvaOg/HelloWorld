@@ -1,5 +1,7 @@
 package arrays;
 
+import java.util.ArrayList;
+
 public class SumMaxMin {
     public static void main(String[] args) {
         //Write a program, which determines the sum, maximum and minimum value of this array using a for loop.
@@ -11,8 +13,11 @@ public class SumMaxMin {
         }
         System.out.println(sum);
 
-        int min = 0;
-        int max = 0;
+
+        // System.out.println(Arrays.stream(input).sum()); If array is class!
+
+        int min = input[0];
+        int max = input[0];
         for (int i: input) {
             if (i < min) {
                 min = i;

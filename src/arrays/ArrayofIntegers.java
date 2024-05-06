@@ -6,11 +6,11 @@ import java.util.Scanner;
 
 public class ArrayofIntegers {
     public static void main(String[] args) {
-        /*
-        Implement the following ideas within one class. Use one method for each subtask:
 
-        find the longest consecutive sequence of elements in an array of integers.
-        find the intersection of two arrays of integers. */
+        //Implement the following ideas within one class. Use one method for each subtask:
+
+        //find the longest consecutive sequence of elements in an array of integers.
+
 
         int[] arr1 = new int[]{1, 4, 5, 7, 20000, -511, 100, 100, -200, 400, 400, 500};
         int[] arr2 = new int[]{14, 6, 23, 7, 3455, -51, 100, 101, -200, 400, 430};
@@ -25,9 +25,18 @@ public class ArrayofIntegers {
         sortinDescendingOder(arr1);
 
 
-
-
     }
+
+    private static void findMedian(int[] input) {
+        int sum = 0;
+        int median;
+        for (int i = 0; i < input.length; i++) {
+            sum += input[i];
+        }
+        median = sum / 2;
+        System.out.println(median);
+    }
+
 
     private static void sortinDescendingOder(int[] input) {
         Arrays.sort(input);
@@ -50,17 +59,6 @@ public class ArrayofIntegers {
         System.out.println(Arrays.toString(input));
     }
 
-
-    private static void findMedian(int[] input) {
-        int sum = 0;
-        int median;
-        for (int i = 0; i < input.length; i++) {
-            sum += input[i];
-        }
-        median = sum / 2;
-        System.out.println(median);
-    }
-
     private static void rotateArray(int[] input) {
         System.out.println("Enter a number: ");
         Scanner sc = new Scanner(System.in);
@@ -77,15 +75,14 @@ public class ArrayofIntegers {
 
     private static int[] removeDublicates(int[] input) {
         Arrays.sort(input);
-        int anewArrLength = 1;
+        int newArrLen = 1;
         for (int i = 1; i < input.length; i++) {
             if(input[i] > input[i-1]) {
-                anewArrLength ++;
+                newArrLen ++;
             }
         }
 
-
-        int[] newInput = new int[anewArrLength];
+        int[] newInput = new int[newArrLen];
         newInput[0] = input[0];
         int j = 1;
         for (int i = 1; i < input.length; i++) {
@@ -96,8 +93,7 @@ public class ArrayofIntegers {
             }
         }
         System.out.println(Arrays.toString(newInput));
-        input = newInput;
-        return input;
+        return newInput;
     }
 
 }
