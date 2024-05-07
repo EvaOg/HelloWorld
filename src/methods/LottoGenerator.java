@@ -11,20 +11,17 @@ public class LottoGenerator {
          from 1 to 49. Call the method from your main class and print the result. When running the method multiple
          times you should see different results.
         Bonus: Make sure that the returned array contains unique values (no duplicates) */
-
-
         generateArray();
         generateArray();
         generateArray();
-
-
     }
 
     private static int [] generateArray() {
         Random rd = new Random(); // creating Random object
         int[] arr = new int[6];
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = rd.nextInt(1, 49); // storing random integers in an array
+            arr[i] = rd.nextInt(1, 50); // storing random integers in an array
+            //check duplicates here would be better
         }
         System.out.println(Arrays.toString(arr)); // printing each array element
 
