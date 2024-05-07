@@ -2,7 +2,7 @@ package car;
 
 public class Door {
     boolean isOpen;
-    String name;
+     String name;
 
     void open() {
         isOpen = true;
