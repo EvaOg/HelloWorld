@@ -1,4 +1,4 @@
-package oop_constructor_chaining;
+package oop.oop_constructor_chaining;
 
 public class User {
     private String name;
