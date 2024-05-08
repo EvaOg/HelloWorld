@@ -1,6 +1,6 @@
 package oop.oop_interfaces;
 
-public class Prozessor {
+public class Prozessor implements Description{
 
     private String name;
 
@@ -8,14 +8,9 @@ public class Prozessor {
         this.name = name;
     }
 
-    public void description(String description) {
-        System.out.println(description);
+    public void description() {
+        System.out.println("Prozessor: " + name);
     }
 
-    @Override
-    public String toString() {
-        return "Prozessor{" +
-                "name='" + name + '\'' +
-                '}';
-    }
+
 }

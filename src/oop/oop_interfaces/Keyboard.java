@@ -1,6 +1,6 @@
 package oop.oop_interfaces;
 
-public class Keyboard {
+ class Keyboard implements Description{
 
     private String name;
 
@@ -8,14 +8,9 @@ public class Keyboard {
         this.name = name;
     }
 
-    public void description(String description) {
-        System.out.println(description);
-    }
+     public void description() {
+         System.out.println("Keyboard: " + name);
+     }
 
-    @Override
-    public String toString() {
-        return "Keyboard{" +
-                "name='" + name + '\'' +
-                '}';
-    }
+
 }

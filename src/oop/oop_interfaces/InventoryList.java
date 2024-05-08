@@ -20,15 +20,15 @@ public class InventoryList {
         inventoryList[3] = prozessor2;
 
     //printing the array
-        for (Object item : inventoryList) {
+        /*for (Object item : inventoryList) {
             System.out.println(item);
-        }
+        }*/
 
     // call method description and give it a string as a param
-        monitor1.description("Description of the monitor1");
-        keyboard1.description("Description of the keyboard1");
-        prozessor1.description("Description of the prozessor1");
-        prozessor2.description("Description of the prozessor2");
+        monitor1.description();
+        keyboard1.description();
+        prozessor1.description();
+        prozessor2.description();
 
 
     }
