@@ -1,4 +1,4 @@
-package oop;
+package oop_customers;
 
 public class Customer {
 
