@@ -14,7 +14,7 @@ public class Car {
 
 
     /**
-     * calculates the total weight of a car (weight of the chassis +
+     * calculates the total weight of a oop.car (weight of the chassis +
      * sum of weights of doors and wheels)
      * @return the total weight as float
      */

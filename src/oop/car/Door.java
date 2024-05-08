@@ -1,4 +1,4 @@
-package car;
+package oop.car;
 
 public class Door {
     boolean isOpen;

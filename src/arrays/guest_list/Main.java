@@ -1,4 +1,4 @@
-package guest_list;
+package arrays.guest_list;
 
 import java.util.Scanner;
 
