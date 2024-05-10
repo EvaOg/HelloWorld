@@ -1,35 +1,31 @@
 package oop.oop_interfaces;
 
-import all_methods.Arrays;
-
 public class InventoryList {
     public static void main(String[] args) {
 
-
     //creating objects and then an arr from objects
+        //Variant 1
+
         Monitor monitor1 = new Monitor("Dell");
         Keyboard keyboard1 = new Keyboard("Logi");
-        Prozessor prozessor1 = new Prozessor("Intel Xeon");
-        Prozessor prozessor2 = new Prozessor("CPU");
+        Processor processor1 = new Processor("Intel Xeon");
+        Processor processor2 = new Processor("CPU");
 
-        Object[] inventoryList = new Object[4];
+        Description[] inventoryList = new Description[4];
 
         inventoryList[0] = monitor1;
         inventoryList[1] = keyboard1;
-        inventoryList[2] = prozessor1;
-        inventoryList[3] = prozessor2;
+        inventoryList[2] = processor1;
+        inventoryList[3] = processor2;
 
-    //printing the array
-        /*for (Object item : inventoryList) {
-            System.out.println(item);
-        }*/
+      //Variant 2  List<InventoryList> inventory .. and them add to the List
+
 
     // call method description and give it a string as a param
-        monitor1.description();
-        keyboard1.description();
-        prozessor1.description();
-        prozessor2.description();
-
+        monitor1.description("Super monitor!");
+        keyboard1.description("Super keyboard!");
+        processor1.description("Super processor!");
+        processor2.description("Super processor!");
 
     }
 }

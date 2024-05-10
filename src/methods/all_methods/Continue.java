@@ -1,4 +1,4 @@
-package all_methods;
+package methods.all_methods;
 
 public class Continue {
     public static void main(String[] args) {

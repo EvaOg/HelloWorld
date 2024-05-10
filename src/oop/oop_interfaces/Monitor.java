@@ -8,7 +8,14 @@ class Monitor implements Description{
         this.name = name;
     }
 
-    public void description() {
+    /*public void description() {
         System.out.println("Monitor: " + name);
+    }*/
+
+    public void description(String description) {
+        System.out.println("Monitor " + name + ": " + description);
     }
+
+
+
 }

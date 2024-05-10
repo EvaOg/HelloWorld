@@ -8,8 +8,12 @@ package oop.oop_interfaces;
         this.name = name;
     }
 
-     public void description() {
+     /*public void description() {
          System.out.println("Keyboard: " + name);
+     }*/
+
+       public void description(String description) {
+         System.out.println("Keyboard " + name + ": " + description);
      }
 
 
