@@ -1,0 +1,7 @@
+package Collections.lotto;
+
+public class LottoTest {
+    public static void main(String[] args) {
+
+    }
+}

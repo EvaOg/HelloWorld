@@ -72,6 +72,13 @@ public class Union {
         return listE;
     }
 
+        /*
+         ArrayList<Integer> list = UnionOfList(list1,list2);
+        ArrayList<Integer> difList = intersection(list1,list2);
+        list.removeAll(difList);
+        return list;
+        */
+
 
 }
 
