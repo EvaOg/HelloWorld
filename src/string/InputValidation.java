@@ -23,16 +23,16 @@ public class InputValidation {
 
         String word = sc.nextLine();
 
-        char [] x = word.toCharArray();
+// Alternatively I can transfer if to a char array: char [] x = word.toCharArray();
 
 
-        System.out.println(x.length > 10 ? "ok" : "Error");
+        System.out.println(word.length() > 10 ? "ok" : "Error");
 
-        System.out.println(x.length > 5 && x.length < 10? "ok" : "Error");
+        System.out.println(word.length() > 5 && word.length() < 10? "ok" : "Error");
 
-        System.out.println(x.length > 4 && x.length < 8? "ok" : "Error");
+        System.out.println(word.length() > 4 && word.length() < 8? "ok" : "Error");
 
-        System.out.println(Character.isDigit(x[0])? "ok" : "Error");
+        System.out.println(word.matches("\\d+")? "ok" : "Error");
 
         System.out.println(word.contains("chen")? "ok" : "Error");
 

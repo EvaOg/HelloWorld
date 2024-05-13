@@ -1,9 +1,9 @@
-package Collections;
+package Collections.arrayList;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Union {
+public class UnionIntersection {
     public static void main(String[] args) {
 
 

@@ -1,10 +1,8 @@
-package Collections;
+package Collections.arrayList;
 
 import java.util.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
-import java.util.HashSet;
 
 
 public class Exercise1 {
