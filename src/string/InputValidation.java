@@ -46,10 +46,12 @@ public class InputValidation {
 
 
         Pattern pattern = Pattern.compile(".*\\(.*\\).*");
-        Matcher m = pattern.matcher(word);
-        System.out.println(m.find()? "ok" : "Error");
+        System.out.println((pattern.matcher(word)).find()? "ok" : "Error");
 
 
     }
+
+
+
 }
 
